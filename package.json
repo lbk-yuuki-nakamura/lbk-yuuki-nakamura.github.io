@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "build:sample": "rm -rf ./sample && rm -rf ./react-project/sample/build && npm run build --prefix react-project/sample && mkdir sample && mv react-project/sample/build/* ./sample",
-    "build:spa": "rm -rf ./spa && rm -rf ./react-project/spa/build && npm run build --prefix react-project/spa && mkdir spa && mv react-project/spa/build/* ./samplespa"
+    "build:spa": "rm -rf ./spa && rm -rf ./react-project/spa/build && npm run build --prefix react-project/spa && mkdir spa && mv react-project/spa/build/* ./spa"
   },
   "devDependencies": {
     "eslint": "^8.51.0",

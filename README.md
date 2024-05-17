@@ -30,7 +30,7 @@ npx create-react-app [プロジェクト名] --template typescript
 ※「`[プロジェクト名]`」はプロジェクト名を置き換える
 
 ```
-"build:[プロジェクト名]": "rm -rf ./[プロジェクト名] && rm -rf ./react-project/[プロジェクト名]/build && npm run build --prefix react-project/[プロジェクト名] && mkdir [プロジェクト名] && mv react-project/[プロジェクト名]/build/* ./sample[プロジェクト名]"
+"build:[プロジェクト名]": "rm -rf ./[プロジェクト名] && rm -rf ./react-project/[プロジェクト名]/build && npm run build --prefix react-project/[プロジェクト名] && mkdir [プロジェクト名] && mv react-project/[プロジェクト名]/build/* ./[プロジェクト名]"
 ```
 
 プロジェクトルートで下記を実行することで、該当のプロジェクトのビルドが行える  
