@@ -1,2 +1,4 @@
-# lbk-yuuki-nakamura.github.io
-GitHubPages
+# ページ
+
+https://lbk-yuuki-nakamura.github.io/
+
