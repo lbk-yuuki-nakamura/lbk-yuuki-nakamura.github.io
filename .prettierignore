@@ -1,0 +1,10 @@
+# Ignore artifacts:
+build
+**/public/*
+**/node_modules/*
+**/.vscode/*
+.eslintrc.js
+.prettierrc.js
+**/*.md
+webpack.config.js
+tsconfig.json

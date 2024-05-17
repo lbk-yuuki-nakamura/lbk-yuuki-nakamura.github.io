@@ -1,0 +1,15 @@
+build
+**/public/*
+**/node_modules/*
+**/.vscode/*
+.eslintrc.js
+.prettierrc.js
+**/*.md
+webpack.config.js
+tsconfig.json
+knexfile.js
+development.js
+local.js
+production.js
+/frontend/tsconfig.json
+seed.js
